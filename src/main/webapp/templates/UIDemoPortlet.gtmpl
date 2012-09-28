@@ -1,0 +1,36 @@
+<%
+ 
+def rcontext = _ctx.getRequestContext() ;
+def requireJS = rcontext.getJavascriptManager().getRequireJS();
+requireJS.require("SHARED/jquery","gj");
+requireJS.require("SHARED/module","module");
+
+%>
+
+<div id="part1">
+<label>Type the text to revert</label>
+<input id="textRevert" />
+<input id="revertBt" type="button"  value="Click me" />
+<div id="rsRevert"/>
+</div>
+
+
+
+<div id="part2">
+<label>Mixtwo String</label> <br>
+<label>Text1</label> 
+<input id="text1" />
+<label>Text2</label> 
+<input id="text2" />
+<input id="mixText" type="button"  value="Click me" />
+<div id="rsMixString"/>
+</div>
+
+
+
+
+
+
+
+
+

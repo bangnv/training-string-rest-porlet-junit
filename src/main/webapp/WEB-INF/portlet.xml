@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<portlet-app version="1.0" xmlns="http://java.sun.com/xml/ns/portlet/portlet-app_1_0.xsd"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://java.sun.com/xml/ns/portlet/portlet-app_1_0.xsd http://java.sun.com/xml/ns/portlet/portlet-app_1_0.xsd"> 
+  <portlet>
+    <description xml:lang="EN">Training String Rest Portlet Junit</description>
+    <portlet-name>Training String Rest Portlet Junit</portlet-name>
+    <display-name xml:lang="EN">Training String Rest Portlet Junit</display-name>
+    <portlet-class>org.exoplatform.webui.application.portlet.PortletApplicationController</portlet-class>
+    <init-param>
+      <name>webui.configuration</name>
+      <!-- must match the path to configuration file -->
+      <value>/WEB-INF/conf/portlet/configuration.xml</value>
+    </init-param>    
+    <expiration-cache>0</expiration-cache>
+    <supports>
+      <mime-type>text/html</mime-type>
+      <portlet-mode>help</portlet-mode>
+    </supports>
+    <supported-locale>en</supported-locale>
+    <portlet-info>
+      <title>Training String Rest Portlet Junit</title>
+      <short-title>training-string-rest-porlet-junit</short-title>
+      <keywords>webui</keywords>
+    </portlet-info>     
+  </portlet>
+</portlet-app>

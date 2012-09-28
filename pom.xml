@@ -1,0 +1,35 @@
+<project>
+
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>org.exoplatform.cross.training</groupId>
+	<artifactId>training.string.rest.porlet.junit</artifactId>
+	<packaging>war</packaging>
+	<version>1.0.0</version>
+	<name>training.string.rest.porlet.junit</name>
+	<description>Demo String rest porlet Portlet</description>
+	<dependencies>
+		<dependency>
+			<groupId>org.exoplatform.portal</groupId>
+			<artifactId>exo.portal.webui.core</artifactId>
+			<version>3.4.0.M01</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.exoplatform.portal</groupId>
+			<artifactId>exo.portal.webui.portal</artifactId>
+			<version>3.4.0.M01</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.exoplatform.portal</groupId>
+			<artifactId>exo.portal.webui.eXo</artifactId>
+			<!-- version>${org.exoplatform.portal.version}</version -->
+			<version>3.4.0.M01</version>
+			<scope>provided</scope>
+		</dependency>
+	</dependencies>
+	<build>
+		<finalName>training.string.rest.porlet.junit</finalName>
+	</build>
+</project>
+
