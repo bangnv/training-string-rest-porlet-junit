@@ -7,17 +7,18 @@ requireJS.require("SHARED/module","module");
 
 %>
 
+<h3>Rest Service 1 : Revert The string</h3>
 <div id="part1">
 <label>Type the text to revert</label>
 <input id="textRevert" />
 <input id="revertBt" type="button"  value="Click me" />
 <div id="rsRevert"/>
 </div>
-
-
-
+<br><br>
+<hr>
+<br><br>
+<h3>Rest Service 2 : MixTow String</h3>
 <div id="part2">
-<label>Mixtwo String</label> <br>
 <label>Text1</label> 
 <input id="text1" />
 <label>Text2</label> 
@@ -25,7 +26,7 @@ requireJS.require("SHARED/module","module");
 <input id="mixText" type="button"  value="Click me" />
 <div id="rsMixString"/>
 </div>
-
+<br><br>
 
 
 
